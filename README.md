@@ -37,7 +37,9 @@ php artisan app:backup
 
 5. Optional: Limit the number of backups
 
-Set a `MAX_BACKUPS` variable in your `.env` file to limit the number of stored backup files:
+You can set a `MAX_BACKUPS` variable in your `.env` file to limit the number of stored backup files.
+
+By default, it keeps 5 backups:
 ```
 MAX_BACKUPS=5
 ```
