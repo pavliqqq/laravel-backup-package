@@ -1,0 +1,34 @@
+{
+    "name": "pavliq/laravel-backup-package",
+    "description": "Laravel package for database backup",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pavliq\\LaravelBackupPackage\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pavliq\\LaravelBackupPackage\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pavliqqq",
+            "email": "pavlo.tiutiunnyk@nure.ua"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pavliq\\LaravelBackupPackage\\Providers\\LaravelPackageServiceProvider"
+            ]
+        }
+    }
+}
